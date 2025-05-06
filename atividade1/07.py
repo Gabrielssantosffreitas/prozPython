@@ -1,0 +1,5 @@
+valor_principal = float(input("digite o valor principal"))
+taxa_de_juros = float(input("digite a  taxa de juros em porcentagem"))
+numero_de_anos = int(input("digite o numero de anos"))
+montante = valor_principal+ (valor_principal*taxa_de_juros*numero_de_anos/100)
+print (montante)
