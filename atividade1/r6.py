@@ -1,6 +1,6 @@
 numero = 10 
 contador = 0
-while contador <= 1 : 
+while contador < 1 : 
     chute = int(input("digite um numero >> "))
     if chute == 10:
         print("vc acertou !!!!!!")

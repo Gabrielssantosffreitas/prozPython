@@ -5,7 +5,7 @@ ultimo = numero
 penultimo = numero
 atual = numero  
 
-while contador <= 10: 
+while contador <= 9: 
     print(atual)
     penultimo = ultimo
     ultimo = atual 
