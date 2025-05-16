@@ -1,12 +1,18 @@
-numero =  int(input("digite um numero >> "))
-primo ="sim"
-contador = numero
-while contador >= 1:
+from math import sqrt
+numero = int(input("digite um numero >> "))
 
-    if numero%contador == 0: 
-        print(" seu numero nao e primo")
+contador = numero - 1 
+
+primo = "sim"
+
+while contador >=2: 
+    print(contador)
+
+    if numero%contador == 0:
+        print("Esse numero não e primo")
         primo = "nao"
-        break
-    
+        contador = 2 
+
+    contador = contador - 1
 if primo == "sim":
-    print("seu numero e primo")   
+    print("Esse e primo")

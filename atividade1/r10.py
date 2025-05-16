@@ -3,7 +3,7 @@
 contador = 1
 acumulador = 0 
 soma = 0 
-while contador >=2 : 
+while contador <=2 : 
     nota = int(input(" digite um numero, para parar digite um numero negativo >> "))
     if nota < 0 : 
         break
@@ -11,6 +11,6 @@ while contador >=2 :
         soma = soma + nota 
         acumulador = acumulador + 1 
 
-media = soma/acumulador
+media = soma / acumulador
 
 print(" a sua media e ",media)
