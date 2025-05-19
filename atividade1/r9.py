@@ -1,4 +1,4 @@
-from math import sqrt
+
 numero = int(input("digite um numero >> "))
 
 contador = numero - 1 

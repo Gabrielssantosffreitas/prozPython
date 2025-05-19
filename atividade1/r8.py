@@ -1,15 +1,15 @@
 numero = int(input("digite um numero >> "))
 contador = 1
-soma = 0 
-ultimo = numero
-penultimo = numero
-atual = numero  
+ultimo = 1
+penultimo = 1
+atual = 1
 
-while contador <= 9: 
-    print(atual)
+while contador <= numero: 
+ 
     penultimo = ultimo
     ultimo = atual 
     atual =  ultimo + penultimo
     contador = contador + 1 
+    print(atual)
 
     
