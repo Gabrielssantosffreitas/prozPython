@@ -16,3 +16,5 @@ while contador >=2:
     contador = contador - 1
 if primo == "sim":
     print("Esse e primo")
+
+# res
