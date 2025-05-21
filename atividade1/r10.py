@@ -14,3 +14,4 @@ while contador <=2 :
 media = soma / acumulador
 
 print(" a sua media e ",media)
+# parecido com o do professor 
